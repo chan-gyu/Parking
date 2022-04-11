@@ -40,7 +40,7 @@ public class CarController {
 		System.out.println(name);
 		Car c = new Car();
 		String CarNum=inCarNum1+inCarNum2+inCarNum3+inCarNum4;
-		c.setCarNum(Integer.parseInt(CarNum));
+		c.setCarNum(CarNum);
 		c.setState(state);
 		c.setName(name);
 		
@@ -88,7 +88,7 @@ public class CarController {
 			price*=1000;
 		}
 		
-		carR.setCarRNum(Integer.parseInt(carNum));
+		carR.setCarRNum(carNum);
 		carR.setInRDate(inDate);
 		carR.setOutRDate(Integer.toString(nowhour)+"시 "+Integer.toString(nowminute)+"분");
 		carR.setRState(state);
@@ -143,7 +143,7 @@ public class CarController {
 		
 //		System.out.println("carRNum : " + carRNum + " inRDate" + inRDate + " rState : " + rState + " rName : " + rName);
 		CarRecord carR = new CarRecord();
-		carR.setCarRNum(Integer.parseInt(carRNum));
+		carR.setCarRNum(carRNum);
 		carR.setInRDate(inRDate);
 		carR.setRState(rState);
 		carR.setRName(rName);

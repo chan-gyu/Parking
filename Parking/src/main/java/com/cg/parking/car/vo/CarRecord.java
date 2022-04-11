@@ -13,7 +13,7 @@ import lombok.ToString;
 @ToString
 public class CarRecord {
 	
-	private int carRNum;
+	private String carRNum;
 	private String inRDate;
 	private String outRDate;
 	private String rState;
